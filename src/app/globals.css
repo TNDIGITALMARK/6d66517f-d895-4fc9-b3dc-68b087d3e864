@@ -5,35 +5,43 @@ All colors MUST be HSL.
 */
 
 :root {
-  --background: 0 0% 100%;
-  --foreground: 222.2 84% 4.9%;
+  --background: 30 20% 95%;
+  --foreground: 30 15% 15%;
 
   --card: 0 0% 100%;
-  --card-foreground: 222.2 84% 4.9%;
+  --card-foreground: 30 15% 15%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 222.2 84% 4.9%;
+  --popover-foreground: 30 15% 15%;
 
-  --primary: 222.2 47.4% 11.2%;
-  --primary-foreground: 210 40% 98%;
+  --primary: 25 45% 20%;
+  --primary-foreground: 30 20% 95%;
 
-  --secondary: 210 40% 96.1%;
-  --secondary-foreground: 222.2 47.4% 11.2%;
+  --secondary: 35 30% 85%;
+  --secondary-foreground: 25 45% 20%;
 
-  --muted: 210 40% 96.1%;
-  --muted-foreground: 215.4 16.3% 46.9%;
+  --muted: 35 20% 90%;
+  --muted-foreground: 30 10% 45%;
 
-  --accent: 210 40% 96.1%;
-  --accent-foreground: 222.2 47.4% 11.2%;
+  --accent: 45 95% 55%;
+  --accent-foreground: 25 45% 20%;
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 210 40% 98%;
 
-  --border: 214.3 31.8% 91.4%;
-  --input: 214.3 31.8% 91.4%;
-  --ring: 222.2 84% 4.9%;
+  --border: 30 15% 85%;
+  --input: 30 15% 90%;
+  --ring: 45 95% 55%;
 
   --radius: 0.5rem;
+
+  /* Restaurant-specific colors */
+  --restaurant-brown: 25 45% 20%;
+  --restaurant-golden: 45 95% 55%;
+  --restaurant-cream: 30 20% 95%;
+  --restaurant-dark-brown: 20 35% 15%;
+  --restaurant-light-brown: 30 25% 75%;
+  --restaurant-green: 120 30% 35%;
 
   --sidebar-background: 0 0% 98%;
   --sidebar-foreground: 240 5.3% 26.1%;
@@ -124,7 +132,15 @@ All colors MUST be HSL.
   --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
   --color-sidebar-border: hsl(var(--sidebar-border));
   --color-sidebar-ring: hsl(var(--sidebar-ring));
-  
+
+  /* Restaurant Colors */
+  --color-restaurant-brown: hsl(var(--restaurant-brown));
+  --color-restaurant-golden: hsl(var(--restaurant-golden));
+  --color-restaurant-cream: hsl(var(--restaurant-cream));
+  --color-restaurant-dark-brown: hsl(var(--restaurant-dark-brown));
+  --color-restaurant-light-brown: hsl(var(--restaurant-light-brown));
+  --color-restaurant-green: hsl(var(--restaurant-green));
+
   /* Border Radius */
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
